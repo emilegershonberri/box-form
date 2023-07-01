@@ -53,14 +53,13 @@ margin-bottom: -15px;
 }
 
 
-@media only screen and (max-width: 200px) {
+@media only screen and (max-width: 700px) {
 body{
     width: auto;
     height: auto;
 }
     .container{
-        width: auto;
-        height: auto; 
+        width: 100%;
         height: auto;
     }
 
@@ -69,12 +68,12 @@ body{
     }
 
     .left-sidebar{
-        height: auto;
+        height: fit-content;
     }
 
     .right-sidebar{
-        height: auto;
+        height: fit-content;
+    }
     }
 
    
-}
